@@ -1,0 +1,101 @@
+/* Editor Theme Variables */
+.monaco-editor.vs-dark {
+    --token-keyword: #ff7b72;
+    --token-string: #a5d6ff;
+    --token-comment: #8b949e;
+    --token-number: #79c0ff;
+    --token-variable: #79c0ff;
+}
+
+.monaco-editor.vs {
+    --token-keyword: #d73a49;
+    --token-string: #032f62;
+    --token-comment: #6a737d;
+    --token-number: #005cc5;
+    --token-variable: #6f42c1;
+}
+
+.monaco-editor.hc-black {
+    --token-keyword: #00ff00;
+    --token-string: #00ffff;
+    --token-comment: #008000;
+    --token-number: #ffff00;
+    --token-variable: #ff00ff;
+}
+
+/* Bracket pair coloring */
+.bracket-pair-color-1 {
+    color: inherit;
+    border-color: rgba(255, 127, 114, 0.5);
+}
+
+.bracket-pair-color-2 {
+    color: inherit;
+    border-color: rgba(165, 214, 255, 0.5);
+}
+
+.bracket-pair-color-3 {
+    color: inherit;
+    border-color: rgba(121, 192, 255, 0.5);
+}
+
+/* IntelliSense styling */
+.monaco-editor .suggest-widget {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.monaco-editor .suggest-widget .monaco-list {
+    border-radius: 6px;
+}
+
+.monaco-editor .suggest-details {
+    border-radius: 6px;
+}
+
+/* Error and warning squiggles */
+.monaco-editor .error-squiggly {
+    border-bottom: 2px wavy #f85149;
+}
+
+.monaco-editor .warning-squiggly {
+    border-bottom: 2px wavy #d29922;
+}
+
+.monaco-editor .info-squiggly {
+    border-bottom: 2px wavy #79c0ff;
+}
+
+/* Selection and highlight */
+.monaco-editor .selection {
+    background: rgba(47, 129, 247, 0.2);
+}
+
+.monaco-editor .wordHighlight {
+    background: rgba(47, 129, 247, 0.1);
+    border: 1px solid rgba(47, 129, 247, 0.3);
+}
+
+.monaco-editor .wordHighlightStrong {
+    background: rgba(47, 129, 247, 0.15);
+}
+
+/* Cursor */
+.monaco-editor .cursor {
+    background: var(--accent);
+    border: none;
+}
+
+/* Line numbers */
+.monaco-editor .line-numbers {
+    padding-right: 16px;
+    user-select: none;
+}
+
+/* Indentation guides */
+.monaco-editor .indent-guide {
+    border-left: 1px solid rgba(48, 54, 61, 0.5);
+}
+
+.monaco-editor .indent-guide.active {
+    border-left: 1px solid rgba(47, 129, 247, 0.3);
+}
