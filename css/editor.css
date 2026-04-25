@@ -1,0 +1,52 @@
+/* Monaco Editor customizations */
+.monaco-editor {
+    font-family: 'Fira Code', 'JetBrains Mono', monospace !important;
+    font-ligatures: true !important;
+}
+
+.monaco-editor .codicon {
+    font-family: codicon !important;
+}
+
+.monaco-editor .lines-content {
+    padding-top: 8px !important;
+}
+
+.monaco-editor .minimap {
+    display: none;
+}
+
+/* Dark theme adjustments */
+.monaco-editor.vs-dark {
+    background: #0d1117;
+}
+
+.vs-dark .monaco-editor-background {
+    background: #0d1117;
+}
+
+.vs-dark .monaco-glyph-margin {
+    background: #0d1117;
+}
+
+.vs-dark .line-numbers {
+    color: #30363d;
+}
+
+/* Light theme adjustments */
+.vs .monaco-editor-background {
+    background: #ffffff;
+}
+
+.vs .line-numbers {
+    color: #cccccc;
+}
+
+/* High contrast adjustments */
+.hc-black .monaco-editor-background {
+    background: #000000;
+}
+
+.hc-black .line-numbers {
+    color: #6c6c6c;
+}
